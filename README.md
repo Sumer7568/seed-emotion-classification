@@ -24,16 +24,11 @@ This project uses the **ExtractedFeatures_1s** subset of the SEED dataset, speci
    cd seed-emotion-classification
 Install the required Python packages:
 
-Bash
 pip install -r requirements.txt
-Update the path variable inside the script to point to your local or mounted dataset directory.
 
-Usage
-To train the model and generate the evaluation metrics, run the main script:
-
-Bash
 python src/train_svm.py
-(If you are running this in Google Colab, you can upload the notebook file and run the cells directly).
+
+
 
 Results
 The model evaluates performance across three emotional states:
